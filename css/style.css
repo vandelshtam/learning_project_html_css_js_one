@@ -1023,15 +1023,6 @@ header{
     right: -12px;
 }
 .page_servise .default-btn:hover{
-    /* display: inline-block;
-    font-size: 14px;
-    line-height: 24px;
-    color:#282828;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    padding: 8px 30px 8px 24px; */
     border: 1px solid#be960f;
     border-right-width: 20px;
-    /* position: relative;
-    outline: none; */
 }

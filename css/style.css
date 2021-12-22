@@ -881,7 +881,6 @@ header{
     display: block;
     width: 100%;
 }
-
 .add_new-form .form_box-inner input{
     margin-top: 10px;
 }
@@ -901,10 +900,6 @@ header{
 .add_new-form .custom-file-upload input{
     margin-bottom: -30px;
     margin-top: 60px;
-    /* outline: none;
-    height: none; 
-    border: none ;
-    padding: none; */
 }
 .add_new-form .form_box-inner .textarea-article{
     height: 412px;
@@ -976,4 +971,67 @@ header{
     border-right-width: 20px;
     position: relative;
     outline: none;
+}
+
+/*===========page service =============*/
+.page_servise .servises_item{
+    max-width: 1140px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+.page_servise .servises_item .slider-service{
+    background-color: #e4e3e1;
+}
+.page_servise .slider_item-content{
+    text-align: center;
+    padding-top: 80px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.page_servise .slider_title{
+    margin-top: 20px;
+    color:#282828;   
+}
+.page_servise .slider_text{
+    color: rgb(141, 141, 141);
+    margin-top: 30px;
+} 
+.page_servise .default-btn-galery_service{
+    color:#282828;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px 8px 24px;
+    border: 1px solid#ffc222;
+    border-right-width: 20px;
+    position: relative;
+    outline: none;
+}
+.page_servise .default-btn-galery_service:hover{
+    border: 1px solid#be960f;
+    border-right-width: 20px;
+}
+.page_servise .default-btn-galery_service::after{
+    content: "\f105";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+}
+.page_servise .default-btn:hover{
+    /* display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color:#282828;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px 8px 24px; */
+    border: 1px solid#be960f;
+    border-right-width: 20px;
+    /* position: relative;
+    outline: none; */
 }

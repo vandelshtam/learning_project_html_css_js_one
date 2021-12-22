@@ -186,6 +186,9 @@
     .news_slider-inner .slick-btn{
         bottom: -90px;
     }
+    .page_servise .slider_title{
+        font-size: 15px;
+    }
     
 }
 @media (max-width: 414px){

@@ -944,3 +944,36 @@ header{
     margin-top: 5px;
     margin-bottom: 30px;
 }
+
+/* =====  page  services ====    */
+.page_servises .servises_items{
+    display: block;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page_servises .servises_item{
+    max-width: 1140px;
+    max-height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.page_servises .img_servises-1{
+    width: 10%;
+}
+.page_servises .img_servises-2,.img_servises-3{
+    width: 10%;
+}
+.servises_items.elastic .default-btn-create_service{
+    color:#282828;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px 8px 24px;
+    border: 1px solid#ffc222;
+    border-right-width: 20px;
+    position: relative;
+    outline: none;
+}

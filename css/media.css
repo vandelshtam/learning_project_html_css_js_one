@@ -34,6 +34,9 @@
     .news{
         padding-bottom: 60px;
     }
+    #newsCarousel .default-btn.admin{
+        left: -15%;
+    }
 }
 @media (max-width: 1050px){
     .footer_inner{
@@ -97,6 +100,21 @@
     .advantages-item{
         max-width: 100%;
         margin-bottom: 30px;
+    }
+    .page_blog .blog_top{   
+        display: block;
+    }
+    .page_blog .img_servises-1{
+        margin-right: 20px; 
+    }
+    .blog_slider-inner .slick-btn{
+        bottom: -20px;
+    }
+}
+@media (max-width: 800px){
+    .blog_slider-inner .default-btn.admin.del,
+    .blog_slider-inner .default-btn.admin.edit{
+        left: 0px;
     }
 }
 @media (max-width: 700px){

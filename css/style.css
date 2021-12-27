@@ -619,10 +619,12 @@ header{
     right: 20px;
     left: auto;
 }
-.news_slider-inner .slick-disabled{
+.news_slider-inner .slick-disabled,
+.blog_slider-inner .slick-disabled{
     border-color: #dadada;
 }
-.news_slider-inner .slick-disabled::before{
+.news_slider-inner .slick-disabled::before,
+.blog_slider-inner .slick-disabled::before{
     color: #dadada;
 }
 .footer_content{
@@ -1035,8 +1037,16 @@ header{
     padding: 50px 0px 30px;
 }
 .page_blogs .img_servises-1{
-    width: 20%;
-    
+    width: 20%;    
+}
+.page_blog_search input{
+    margin-bottom: 24px;
+    outline: none;
+    height: 60px;
+    border: 1px solid#e6e6e6;
+    padding: 0px 10px;
+    max-width: 100%;
+    width: 100%;
 }
 .page_blogs .servises_top
 {
@@ -1070,7 +1080,8 @@ header{
     letter-spacing: 0.1px;
     text-indent: 30px;
 }
-.page_blogs .servises_btn a{
+.page_blogs .servises_btn a,
+.form.add_blog .servises_btn a{
     color:#373636;
     line-height: 24px;
     letter-spacing: 0.25px;
@@ -1093,7 +1104,7 @@ header{
     min-height: 375px;
     background-color: #f9f9f9;
     box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
-    margin:20px;
+    margin:20px 0px;
     text-align: left;
 }
 .page_blogs .servises_item:hover{
@@ -1137,10 +1148,11 @@ header{
     margin-bottom: 20px;
 }
 .servises_item-btn .default-btn.admin:hover{
-    background-color: red;
+    background-color: #ff5622;
     color: white;
 }
-.servises_item-btn .default-btn:hover{
+.servises_item-btn .default-btn:hover,
+.form.add_blog .servises_item-btn .default-btn:hover{
     background-color: #ffc222;
 }
 
@@ -1152,8 +1164,8 @@ header{
     width: 40%;
     height: 40%;   
 }
-.page_blog .servises_top
-{   display: flex;
+.page_blog .blog_top{   
+    display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
@@ -1224,6 +1236,7 @@ header{
 .page_blog .servises_item-text{
     letter-spacing: 0.1px;
     padding: 0px 30px 30px;
+    margin-top: 30px;
 }
 .page_blog .servises_item-btn{
     position: relative;
@@ -1249,23 +1262,213 @@ header{
     display: flex;
     margin-bottom: 20px;
 }
-.blog_slider-inner a{
-    width: 300px !important;
-    height: 250px;
+.blog_slider-text{  
+    padding: 30px;
 }
-#newsCarousel .default-btn.admin{
+.blog_img{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px; 
+    max-width: 480px;
+}
+.img_servises-1.blog{
+    float: left;
+}
+.blog_img img{
+    max-width: 480px;
+    max-height: 270px;
+}
+.blog_slider-inner .default-btn.admin{
     color:#282828;
     display: inline-block;
     font-size: 7px;
     line-height: 12px;
     font-weight: 250;
     font-family: 'Roboto', sans-serif;
+    opacity: 80%;
     padding: 4px 15px 4px 12px;
     border: 1px solid#ffc222;
     border-right-width: 20px;
     position: relative;
     outline: none;
     height: 20px;
-    left: -160px;
-    /* margin-left: -100px; */
+    left: -500px;
+}
+.blog_slider-inner .default-btn.admin.del,
+.blog_slider-inner .default-btn.admin.edit{
+    color:#282828;
+    display: inline-block;
+    font-size: 7px;
+    line-height: 12px;
+    font-weight: 250;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    opacity: 80%;
+    padding: 4px 15px 4px 12px;
+    border: 1px solid#ffc222;
+    border-right-width: 20px;
+    position: relative;
+    outline: none;
+    height: 20px;
+    left: -500px;
+}
+.blog_slider-item .default-btn.admin.add{
+    color:#282828;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    background-color: none;
+    padding: 10px 15px 8px 12px;
+    border: 1px solid#ffc222;
+    border-right-width: 20px;
+    position: relative;
+    outline: none;
+    height: 50px;
+    left: 1%;
+}
+.blog_slider-item .default-btn.admin.add:hover{
+    border: 1px solid#be960f;
+    border-right-width: 20px;
+}
+.blog_slider-inner .default-btn.admin:hover{
+    border: 1px solid#ff5622;
+}
+.blog_slider-inner .default-btn.admin.del:hover{
+    border: 1px solid#ff5622;
+    border-right-width: 20px;
+}
+.blog_slider-inner .default-btn.admin.edit:hover{
+    border: 1px solid#be960f;
+    border-right-width: 20px;
+}
+.blog_slider-inner .slick-btn{
+    top: auto;
+    bottom: -20px;
+}
+.blog_slider-inner .slick-next{
+    right: 0px;
+}
+.blog_slider-inner .slick-prev{
+    right: 70px;
+    left: auto;
+}
+.blog_slider-title.add{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 1140px;
+    height:300px;
+    background-color: #dbe4eb;
+    padding-top: 200px;
+}
+#hidden-content-slider{
+    display: none;
+}
+#hidden-content-slider-edit{
+    display: none;
+}
+#hidden-content-slider-edit .form_box-left{
+    max-width: 325px;
+    width: 100%;
+}
+.blog_img_hidden{
+    max-width: 320px;
+}
+.page_blog #hidden-content-slider-edit .fancybox_content{
+    max-width: 500px;
+}
+
+/*============== page add_blog =================== */
+.form.add_blog .form_inner{
+    background-image: none;
+}
+.form.add_blog .form_box{
+    max-width: 1140px;
+}
+.form.add_blog .form_box-left{
+    max-width: 550px;
+    margin-right: 10px;
+}
+.form.add_blog .form_box-right{
+    max-width: 550px;
+}
+.form.add_blog .servises_item-btn{
+    position: relative;
+    margin-top: 70px;
+}
+/*============= page slider =========== */
+
+.page_slider{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 15.36px 0.64px rgba(128, 127, 127, 0.14);
+}
+.page_slider:hover{
+    box-shadow: 0px 5px 15.36px 0.64px rgba(70, 70, 71, 0.25);
+}
+.page_slider::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.slider_images{
+    float: left;
+    margin-right: 50px;
+}
+.slider_images img{
+    max-width: 180px;
+}
+.page_slider_inner{
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+}
+.page_slider_inner .default-btn{
+    color:#282828;
+}
+.page_slider_inner .default-btn:hover{
+    border: 1px solid#be960f;
+    border-right-width: 20px;
+}
+
+/* ===== page add slider and edit slider =====*/
+.add_new-form button.default-btn:hover{
+    border: 1px solid#be960f;
+    border-right-width: 20px;
+}
+
+/* ========== page users ================ */
+.page_users{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    box-shadow: 0px 5px 15.36px 0.64px rgba(128, 127, 127, 0.14);
+}
+.page_users:hover{
+    box-shadow: 0px 5px 15.36px 0.64px rgba(70, 70, 71, 0.25);
+}
+.page_users::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.user_avatar{
+    float: left;
+    margin-right: 50px;
+}
+.user_avatar img{
+    max-width: 130px;
+}
+.page_user_inner{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.page_user_inner .default-btn{
+    color:#282828;
+}
+.page_user_inner .default-btn:hover{
+    border: 1px solid#be960f;
+    border-right-width: 20px;   
 }

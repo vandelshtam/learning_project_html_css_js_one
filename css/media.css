@@ -182,6 +182,23 @@
         padding: 0px 0px 0px;
         margin-top: 30px;
     }
+    .about_top{   
+        display: block;
+    }
+    .about_item-title{
+        margin-left: 30px;
+        padding-left: 10px;
+    }
+    .img_about{
+        margin-right: 10px;
+    }
+    .about_item-text,
+    .about_item-title{
+        padding: 0px 0px 5px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 600px){
     
@@ -224,6 +241,9 @@
     }
     .slider_text{
         font-size: 16px;
+    }
+    .img_about img{
+        width: 100%;
     }
 }
 @media (max-width: 400px){

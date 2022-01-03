@@ -15,8 +15,6 @@ ul,li{
     margin: 0 auto;
     padding: 0 15px;
 }
-
-
 body{
     font-family: 'PT Serif', serif;
     /*font-family: 'Roboto', sans-serif;*/
@@ -32,8 +30,7 @@ header{
     background-color: #303030;
 }
 .logo{
-    max-width: 150px;
-    
+    max-width: 150px;    
 }
 .header_btn{
     float: right;
@@ -348,7 +345,6 @@ header{
     font-size: 24px;
     line-height: 24px;
     color: white;
-    /* font-weight: 500; */
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -384,7 +380,6 @@ header{
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-    /*max-width: 700px;*/
 }
 .form_box-left{
     max-width: 250px;
@@ -526,7 +521,6 @@ header{
     font-family: 'Roboto', sans-serif;
     padding: 60px 0px 15px;
     position: relative;
-    /*height: 120px;*/
 }
 .advantages__text{
     line-height: 24px;
@@ -633,7 +627,6 @@ header{
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
 }
-
 .news_slider-inner .slick-btn{
     top: auto;
     bottom: -110px;
@@ -665,7 +658,6 @@ header{
     float: none;
     display: inline-block;
 }
-
 .footer_map iframe{
     width: 100%;
 }
@@ -758,7 +750,6 @@ header{
     cursor: pointer;
     margin-top: 25px;
 }
-
 /* ========= page news ========= */
 .page_news input{
     margin-bottom: 24px;
@@ -799,7 +790,6 @@ header{
 .page .news{
     padding-bottom: 60px;
 }
-
 /* ======= page_new ========== */
 .page_new .news_inner{
     display: block;
@@ -882,7 +872,6 @@ header{
     padding: 20px;
     max-width: 80%;
 }
-
 /*  ========= add.new ========== */
 .add_new-form{
     padding: 30px;
@@ -971,7 +960,6 @@ header{
     margin-top: 5px;
     margin-bottom: 30px;
 }
-
 /* =====  page  services ====    */
 .page_servises .servises_items{
     display: block;
@@ -1004,7 +992,6 @@ header{
     position: relative;
     outline: none;
 }
-
 /*===========page service =============*/
 .page_servise .servises_item{
     max-width: 1140px;
@@ -1061,7 +1048,6 @@ header{
 .service_discription{
     margin-bottom: 100px;
 }
-
 /* ==========   page_blogs ============== */
 .page_blogs{
     padding: 50px 0px 30px;
@@ -1185,7 +1171,6 @@ header{
 .form.add_blog .servises_item-btn .default-btn:hover{
     background-color: #ffc222;
 }
-
 /*   ============   page_blog ============== */
 .page_blog{
     padding: 50px 0px 30px;
@@ -1410,7 +1395,6 @@ header{
 .page_blog #hidden-content-slider-edit .fancybox_content{
     max-width: 500px;
 }
-
 /*============== page add_blog =================== */
 .form.add_blog .form_inner{
     background-image: none;
@@ -1430,7 +1414,6 @@ header{
     margin-top: 70px;
 }
 /*============= page slider =========== */
-
 .page_slider{
     max-width: 100%;
     display: block;
@@ -1463,13 +1446,11 @@ header{
     border: 1px solid#be960f;
     border-right-width: 20px;
 }
-
 /* ===== page add slider and edit slider =====*/
 .add_new-form button.default-btn:hover{
     border: 1px solid#be960f;
     border-right-width: 20px;
 }
-
 /* ========== page users ================ */
 .page_users{
     max-width: 100%;
@@ -1503,13 +1484,10 @@ header{
     border: 1px solid#be960f;
     border-right-width: 20px;   
 }
-/* =============== contacts ===================== */
+/* =============== page contacts ===================== */
 .page_contacts{
     padding: 50px 0px 30px;
 }
-/* .page_contacts .img_servises-1.contact{
-    max-width: 400px;
-} */
 .image_contacts{
     max-width: 300px;
 }
@@ -1576,7 +1554,6 @@ header{
     max-width: 480px;
     max-height: 270px;
 }
-
 #hidden-contact-slider{
     display: none;
 }
@@ -1605,7 +1582,6 @@ header{
     float: none;
     display: inline-block;
 }
-
 .page_contacts_map iframe{
     width: 100%;
 }
@@ -1728,7 +1704,6 @@ header{
     height: 60px;
     border-radius: 100%;    
 }
-
 #instagram{
     background-image: url(../img/instagram-2.png);
     color:white;
@@ -1740,8 +1715,7 @@ header{
     background-image: url(../img/face-grey-3.jpeg);
 }
 #face:hover{
-    background-image: url(../img/face-color-3.png);
-    
+    background-image: url(../img/face-color-3.png);    
 }
 #twitter{
     background-image: url(../img/twitter-black-1.png);
@@ -1863,7 +1837,11 @@ header{
     justify-content: center;
     max-width: 1140px;
     height:240px;
-    background-color: #dbe4eb;
+    background-image: url(../img/slider-default-1.jpeg);
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
+    /* background-color: #dbe4eb; */
     padding-top: 200px;
 }
 .about_slider-title.add .about_img img{
@@ -1962,7 +1940,6 @@ header{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
 }
-
 .about_item-title{
     color: #212020;
     font-size: 18px;
@@ -2007,25 +1984,19 @@ header{
     background-position: center;
     margin-right: 30px;
 }
-/* .about_top.press .img_about img{
-    max-width: 150px;
-} */
 .about_item.press .img_about img{
     max-width: 80px;
 }
 .about_item.reviews .img_about img{
     max-width: 100px;
 }
-/* .about_item.reviews .img_about{
-    background-color: yellow;
-} */
 .about_text{   
     color:#212020;   
 }
 /* ==== raiting======= */
 .rating-result {
 	width: 265px;
-    margin-left: 30px;
+    margin: 0px 0px 30px 30px;
 }
 .rating-result span {
 	padding: 0;
@@ -2042,11 +2013,10 @@ header{
 	color: gold;
 	text-shadow: 1px 1px #c60;
 }
-
 .rating-area {
 	overflow: hidden;
 	width: 265px;
-	margin: 0 auto;
+	margin: 0px 0px 30px -30px;
 }
 .rating-area:not(:checked) > input {
 	display: none;
@@ -2103,27 +2073,44 @@ header{
     align-items: flex-start;   
     margin: 30px 20px 30px 20px;   
 }
-.page_about .about_reviews_images{
-    max-width: 150px;
-    margin-right: 30px;
+.page_about .page.news_blog.none{
+    display: block;
+    background-color: #f7e2ae;
+    margin:20px;
+    max-width: 560px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
 }
-.page_about .about_reviews_images img{
-    float: left;
-    max-width: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 30px;
+.page_about .page.news_blog-user.none{
+    display: block;
+    background-color: #f0f7ae;
+    margin:20px;
+    max-width: 560px;
+    align-self: flex-end; 
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
 }
-.about_reviews-title{
-    font-weight: bold;
-    margin-bottom: 10px;
+.page_reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ebe8e3;
+    padding: 30px;
+    max-height: 650px;
+    overflow: auto;
 }
-.about_reviews-text{
-    margin-bottom: 10px;
+.page_about .news_date{
+    width: 55px;
+    height: 35px;
+    padding-top: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    top: 0px;
+    left: 60px;
 }
-.page_about .about_reviews.none{
-    padding: 5px 0px 60px;
+.page_about .news_blog-text{
+    padding: 20px;
+}
+.page_about .page.news_images img{
+    max-width: 70px;
 }
 .news_date_reviews{
     position: relative;
@@ -2138,6 +2125,7 @@ header{
     top: 300px;
     left: 50px;
 }
+/*============ рейтинг мини версия ==========*/
 .rating-mini {
 	display: inline-block;
 	font-size: 0;
@@ -2153,4 +2141,13 @@ header{
 }
 .rating-mini > span.active {
 	color: gold;
+}
+/*======= page control about jobs ========= */
+.about_item-btn-jobs{
+    position: relative;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    top:10px;
+    margin: -30px 0px 60px 0px;
 }

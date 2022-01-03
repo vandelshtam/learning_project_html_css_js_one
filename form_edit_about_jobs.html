@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>add.new</title>
+    <title>form edition about jobs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
@@ -13,7 +13,6 @@
     <link rel = "stylesheet"  href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/jquery.formstyler.css">
-    <!--<link rel="stylesheet" href="css/jquery.formstyler.theme.css">-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -53,14 +52,13 @@
     </header>
     <section class="add_new-form">
         <div class="container">
-            
                 <div class="form_content">
                     <div class="form_title-box">
                         <div class="form_title">
-                            Добавить новостную статью
+                            Страница редактирования карточки на странице Онас в блоке "Достижения, награды, деятельность"
                         </div>
                         <div class="form_text">
-                            При заполнении формы новостной статьи,пожалуйста следуйте правилам публикации статей на сайте и подсказкам системы.
+                            При заполнении формы,пожалуйста следуйте правилам публикации статей на сайте и подсказкам системы.
                         </div>
                     </div>
                     <div class="add_new-form form_box">
@@ -68,55 +66,35 @@
                             <div class="add_new-form form_box-inner">
                                 <div class="add_new-form form_box-left">
                                     <label for="">
-                                        Название статьи, не более 70 знаков
-                                        <input type="text">
+                                        Заголовок, не более 70 знаков
+                                        <input type="text" value="Заголовок">
                                     </label>
+                                    <div>текущее фото</div>
+                                    <div><img src="img/fon-foto-default-3.jpeg" alt=""></div>
                                     <label for="file-upload" class="add_new custom-file-upload">
-                                        Загрузка фотографии/картинки для названия статьи и превью статьи в ленте новостей
-                                        <input type="file">
-                                    </label>
-                                    
-                                    <label for="file-upload" class="add_new custom-file-upload">
-                                        Загрузка главной (основной) фотографии/картинки для  статьи
-                                        <input type="file">
+                                        Загрузка фотографии/картинки 
+                                        <input type="file" value="">
                                     </label>
                                     <label for="">
-                                        Комментарий к главной фотографии/картинке новостной статьи, не более 70 символов
-                                        <input type="text">
-                                    </label>
-                                    <label for="file-upload" class="add_new custom-file-upload">
-                                        Загрузка дополнительной фотографии/картинки к статье, меньшего размера которая будет находится внутри текста статьи
-                                        <input type="file">
+                                        Дополнительный параграф  в нижней части блока
+                                        <input type="text" value="Содержание дополнительного параграфа">
                                     </label>
                                     <label for="">
-                                        Комментарий к дополнительной фотографии/картинке к новостной статье, не более 70 символов
-                                        <input type="text">
+                                        Ссылки, материалы, источники
+                                        <input type="text" value="Ссылки, источники, документы">
                                     </label>
-                                    <label for="">
-                                        Комментарий к главной фотографии/картинке новостной статьи, не более 70 символов
-                                        <input type="text">
-                                    </label>   
                                 </div>
                                 <div class="add_new-form form_box-right">
                                     <label for="">
-                                        Краткое превью статьи для ленты новостей, не более 500 знаков.
-                                        <textarea class="textarea-prev"></textarea>
+                                        Текст основной
+                                        <textarea class="textarea-article">Текст содержания основной части карточки</textarea>
                                     </label>
-                                    <label for="">
-                                        Текст статьи
-                                        <textarea class="textarea-article"></textarea>
-                                    </label>
-                                    <label for="">
-                                        Автор, ссылки, источники
-                                        <textarea class="textarea-author"></textarea>
-                                    </label>
-                                    <button class="default-btn" type="submit">Сохранить статью</button>
+                                    <button class="default-btn" type="submit">Сохранить</button>
                                 </div>
                             </div>    
                         </form>       
                     </div>   
-                </div>
-            
+                </div>    
         </div>
     </section>
     <div id="hidden-content">
